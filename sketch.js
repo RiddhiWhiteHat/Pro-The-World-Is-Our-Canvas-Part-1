@@ -4,7 +4,7 @@ var drawing = [];
 var currentPath = [];
 
 function  setup() {
-  canvas = createCanvas(600,200);
+  canvas = createCanvas(600,600);
   canvas.mousePressed(startPath);
   var config = {
     apiKey: "AIzaSyD3Nvy2OOYEjeik3tPG1I7wqoA1WXIkyJo",
